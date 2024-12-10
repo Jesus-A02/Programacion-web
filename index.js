@@ -8,7 +8,7 @@ app.use(bodyParse.urlencoded({ extended: true }));
 app.use(bodyParse.json());
 
 app.get("/", (req, res) => {
-  res.status(200).send({ msg: "Hola TinCode!" });
+  res.status(200).send({ msg: "Hello World, Alfredo Grijalva, 22040062!" });
 });
 
 app.post("/welcome", (req, res) => {
